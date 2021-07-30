@@ -1,0 +1,7 @@
+<div class="tab-layout">
+    {{include '../tab/tab.art'}}
+</div>
+
+<div class="content-layout">
+    {{include '../../../../components/loading/loading.art'}}
+</div>

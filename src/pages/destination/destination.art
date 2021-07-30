@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>慕云游商城--目的地</title>
+</head>
+<body>
+    <div class="destination-layout">
+        <!-- 头部 -->
+        <div class="header-layout">
+            {{include './components/header/header.art'}}
+        </div>
+
+        <!-- 主要内容 -->
+        <div class="main-layout">
+            {{include './components/main/main.art'}}
+        </div>
+
+        <!-- 底部导航栏 -->
+        <div class="tabbar-layout">
+            <% include('../../components/tabbar/tabbar.art',{active:'destination'}) %>
+        </div>
+
+        <!-- 返回顶部 -->
+        <div class="backtop-layout">
+            {{include '../../components/backtop/backtop.art'}}
+        </div>
+    </div>
+</body>
+</html>

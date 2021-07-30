@@ -1,0 +1,18 @@
+.tab {
+    width: 100%;
+    background-color: #fafafa;
+}
+.tab-item {
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+    color: #333333; 
+}
+
+.tab-item-active {
+    color: #BF2A2F;
+    border-left: 3px solid #BF2A2F;
+    font-weight: bold;
+    background-color: #fff;
+}

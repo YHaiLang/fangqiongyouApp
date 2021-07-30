@@ -1,0 +1,8 @@
+.tab-layout {
+    width: 76px;
+}
+.content-layout {
+    flex: 1;
+    overflow-y: auto;
+    /* background-color: red; */
+}

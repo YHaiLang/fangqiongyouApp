@@ -1,0 +1,10 @@
+<div class="loading {{inline ? loading-inline : ''}}">
+    <!-- 图片 -->
+    <div class="loading-img">
+        <img src="./loading.gif" alt="">
+    </div>
+    <!-- 文字 -->
+    <div class="loading-text">
+        {{text ? text : '加载中,请稍后……'}}
+    </div>
+</div>
